@@ -42,19 +42,6 @@ module ram_3_test;
 		.cs(cs)
 	);
 
-	//initial begin
-		// Initialize Inputs
-		 //data_in = 0;
-		//addr = 0;
-		//wr = 0;
-		//cs = 0;
-
-		// Wait 100 ns for global reset to finish
-		//#100;
-        
-		// Add stimulus here
-
-	//end
 	
 	integer k;
 	initial begin

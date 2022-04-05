@@ -1,1 +1,2 @@
 # RAM-Implementation
+A basic read/write operation to the memory is done. Some random values are generated and stored across different addresses of the memory. If the memory size is 2^n, then the address bus will be of n bits. The input data is first stored in some memory address and then read back during the read operation. The write operation is carried out only if both the inputs, write and chip-select are high. 
